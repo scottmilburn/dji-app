@@ -1,0 +1,19 @@
+<ion-view class="has-tabs-top" view-title="Library">
+  <ion-content class="padding">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+  $('#tab-videos').on('click', function() {
+    alert('howdie');
+    $('#tab-videos-content').addClass('display-show');
+    $('#tab-photos-content').addClass('display-hide');
+  });
+
+  $('#tab-photos').on('click', function() {
+    $('#tab-photos-content').addClass('display-show');
+    $('#tab-videos-content').addClass('display-hide');
+  });
+</script>
+
+  </ion-content>
+</ion-view>

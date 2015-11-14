@@ -1,0 +1,53 @@
+/* Empty. Add your own CSS if you like */
+
+.page-header {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+.page-header img {
+	height: 25px;
+}
+
+.slider-page {
+	width: 100%;
+	text-align: center;
+}
+
+.slider-page img {
+	height: 200px;
+}
+
+.button {
+	align: center;
+	width: 60%;
+	left: 20%;
+}
+
+.tabs-top >.tabs, .tabs.tabs-top
+{
+    top: 0 !important;
+}
+
+.tab-content {
+	padding-top: 60px;
+}
+
+.video-item {
+	height: 70px;
+	display: inline;
+}
+
+.photo-item {
+	height: 70px;
+	display: inline;
+}
+
+.display-show {
+	display: inline !important;
+}
+
+.display-hide {
+	display: none !important;
+}
